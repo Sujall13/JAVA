@@ -1,0 +1,17 @@
+class IntegerDataTypes 
+{
+public static void main(String[] args) {
+    int a = 10;
+    char b = 'A';
+
+    int arr[]= { 1,2,3};
+    int i,x;
+    for(i=0; i < arr.length ; i++) {
+        x = arr [i];
+        System.out.println("The out of array is :" + x + '\n');
+    }
+    System.out.println("integer variable is "+ a + '\n');
+    System.out.println("char varible is " + b + '\n');
+
+}    
+}
